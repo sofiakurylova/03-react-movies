@@ -43,7 +43,7 @@ export default function MovieModal({ movie, onClose }: MovieModalProps) {
       onClick={handleBackdropClick}
     >
       <div className={styles.modal}>
-        {/* Кнопка закриття */}
+       
         <button
           className={styles.closeButton}
           aria-label="Close modal"
